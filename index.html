@@ -1,11 +1,253 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>GAG Insider</title>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GAG INSIDER</title>
+  <style>
+    /* page background */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #D7EFBB;
+      color: #2E5A23;
+    }
+    /* central white card */
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      background-color: #F8FFF2;
+      border-radius: 12px;
+      padding: 24px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 16px;
+    }
+    header h1 {
+      font-size: 2rem;
+      margin: 0;
+      display: flex;
+      align-items: center;
+    }
+    header h1 span {
+      display: inline-block;
+      margin-right: 8px;
+      font-size: 2rem;
+    }
+    header a img {
+      width: 40px;
+      height: 40px;
+    }
+    h2 {
+      margin-top: 0;
+      font-size: 1.4rem;
+      border-bottom: 2px solid #C6E2A6;
+      padding-bottom: 4px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 12px;
+    }
+    th, td {
+      border: 1px solid #AFCF8B;
+      padding: 10px 8px;
+      text-align: left;
+      background-color: #E8E8E8;
+    }
+    th {
+      background-color: #C6C6C6;
+    }
+    /* alternate row shading */
+    tbody tr:nth-child(even) td {
+      background-color: #D3D3D3;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.85rem;
+      color: #555;
+      margin-top: 24px;
+    }
+  </style>
 </head>
 <body>
-  <h1>Welcome to GAG Insider!</h1>
-  <p>This site tracks Grow a Garden trading prices and market trends!</p>
+  <div class="container">
+    <header>
+      <h1><span>🌱</span>GAG INSIDER</h1>
+      <!-- replace the href with your Discord invite link -->
+      <a href="https://discord.gg/TZg68XbRGZ" target="_blank">
+        <!-- you can swap this out for any Discord icon you like -->
+        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/discord.svg" alt="Discord Server" />
+      </a>
+    </header>
+
+    <h2>Limited Event Pets</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Value</th>
+          <th>Is currently obtainable?</th>
+          <th>Status</th>
+          <th>Is trending?</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Example row; duplicate & fill in your data -->
+        <tr>
+          <td>Raccoon</td>
+          <td>900T-1.5Q</td>
+          <td>Yes</td>
+          <td>Rising very fast</td>
+          <td>Yes</td>
+        </tr>
+		<tr>
+          <td>Fennec Fox</td>
+          <td>1.2Q-1.8Q</td>
+          <td>Yes</td>
+          <td>Rising very fast</td>
+          <td>Yes</td>
+        </tr>
+		<tr>
+          <td>Moon Cat</td>
+          <td>8T-24T</td>
+          <td>Yes</td>
+          <td>Rising</td>
+          <td>Yes</td>
+        </tr>
+		<tr>
+          <td>Mimic Octopus</td>
+          <td>500T-800T</td>
+          <td>Yes</td>
+          <td>Rising very fast</td>
+          <td>Yes</td>
+        </tr>
+		<tr>
+          <td>Butterfly</td>
+          <td>500T-800T</td>
+          <td>Yes</td>
+          <td>Rising fast</td>
+          <td>Yes</td>
+        </tr>
+		<tr>
+          <td>Disco Bee</td>
+          <td>700T-1.1Q</td>
+          <td>Yes</td>
+          <td>Rising fast</td>
+          <td>Yes</td>
+        </tr>
+		<tr>
+          <td>Chicken Zombie</td>
+          <td>8T-24T</td>
+          <td>No</td>
+          <td>Rising</td>
+          <td>Yes</td>
+        </tr>
+		<tr>
+          <td>Toucan</td>
+          <td>30T-60T</td>
+          <td>Yes</td>
+          <td>Rising very fast</td>
+          <td>Yes</td>
+        </tr>
+		<tr>
+          <td>Cooked Owl</td>
+          <td>8T-10T</td>
+          <td>No</td>
+          <td>Mildly rising</td>
+          <td>Yes</td>
+        </tr>
+		<tr>
+          <td>Bear Bee</td>
+          <td>4T-6T</td>
+          <td>Yes</td>
+          <td>Mildly rising</td>
+          <td>Yes</td>
+        </tr>
+		<tr>
+          <td>Queen Bee</td>
+          <td>100T-200T</td>
+          <td>Yes</td>
+          <td>Rising</td>
+          <td>Yes</td>
+        </tr>
+		<tr>
+          <td>Seal</td>
+          <td>8T-10T</td>
+          <td>Yes</td>
+          <td>Rising</td>
+          <td>Yes</td>
+        </tr>
+		<tr>
+          <td>Scarlet Macaw</td>
+          <td>10T-20T</td>
+          <td>Yes</td>
+          <td>Rising</td>
+          <td>Yes</td>
+        </tr>
+		<tr>
+          <td>Hyacinth Macaw</td>
+          <td>50T-100T</td>
+          <td>Yes</td>
+          <td>Rising</td>
+          <td>Yes</td>
+        </tr>
+        <!-- Add as many rows as you need here -->
+      </tbody>
+    </table>
+	<br>
+	<h2>Non-Event Pets</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Value</th>
+          <th>Status</th>
+          <th>Is trending?</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Example row; duplicate & fill in your data -->
+        <tr>
+          <td>Dragonfly</td>
+          <td>500T-800T</td>
+          <td>Rising fast</td>
+          <td>Yes</td>
+        </tr>
+		<tr>
+          <td>Red Fox</td>
+          <td>15T-40T</td>
+          <td>Rising fast</td>
+          <td>Yes</td>
+        </tr>
+		<tr>
+          <td>Turtle</td>
+          <td>5T-8T</td>
+          <td>Rising</td>
+          <td>Yes</td>
+        </tr>
+		<tr>
+          <td>Polar Bear</td>
+          <td>5T-8T</td>
+          <td>Rising</td>
+          <td>Yes</td>
+        </tr>
+        <!-- Add as many rows as you need here -->
+      </tbody>
+    </table>
+	
+    <footer>
+	  This website is an unofficial Grow a Garden market analysis and is still far from being done and is still being built.<br>
+	  If you could join our discord server and make suggestions or give more information, we would be very grateful.<br>
+	  <br>
+	  Last updated: July 1st, 2025<br>
+      <br>
+	  © Grow a Garden Roblox Insider Analytics 2025. All material from Grow a Garden belongs to DoBig Studios and Roblox.
+    </footer>
+  </div>
 </body>
 </html>
